@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+  <nav class="sidebar ">
+    <div class="sidebar-brand mb-5 ">ADStudio</div>
+    <ul class="sidebar-nav">
+      <label class="ms-2 mb-2"> MAIN MENU</label>
+      <li class="sidebar-nav-item  py-2">
+        <a href="#" class="sidebar-nav-link dashboard"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+            fill="currentColor" class="bi bi-border-all" viewBox="0 0 16 16">
+            <path d="M0 0h16v16H0V0zm1 1v6.5h6.5V1H1zm7.5 0v6.5H15V1H8.5zM15 8.5H8.5V15H15V8.5zM7.5 15V8.5H1V15h6.5z" />
+          </svg> Dashboard</a>
+      </li>
+      <li class="sidebar-nav-item py-2">
+        <a href="#" class="sidebar-nav-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+            fill="currentColor" class="bi bi-rocket-takeoff" viewBox="0 0 16 16">
+            <path
+              d="M9.752 6.193c.599.6 1.73.437 2.528-.362.798-.799.96-1.932.362-2.531-.599-.6-1.73-.438-2.528.361-.798.8-.96 1.933-.362 2.532Z" />
+            <path
+              d="M15.811 3.312c-.363 1.534-1.334 3.626-3.64 6.218l-.24 2.408a2.56 2.56 0 0 1-.732 1.526L8.817 15.85a.51.51 0 0 1-.867-.434l.27-1.899c.04-.28-.013-.593-.131-.956a9.42 9.42 0 0 0-.249-.657l-.082-.202c-.815-.197-1.578-.662-2.191-1.277-.614-.615-1.079-1.379-1.275-2.195l-.203-.083a9.556 9.556 0 0 0-.655-.248c-.363-.119-.675-.172-.955-.132l-1.896.27A.51.51 0 0 1 .15 7.17l2.382-2.386c.41-.41.947-.67 1.524-.734h.006l2.4-.238C9.005 1.55 11.087.582 12.623.208c.89-.217 1.59-.232 2.08-.188.244.023.435.06.57.093.067.017.12.033.16.045.184.06.279.13.351.295l.029.073a3.475 3.475 0 0 1 .157.721c.055.485.051 1.178-.159 2.065Zm-4.828 7.475.04-.04-.107 1.081a1.536 1.536 0 0 1-.44.913l-1.298 1.3.054-.38c.072-.506-.034-.993-.172-1.418a8.548 8.548 0 0 0-.164-.45c.738-.065 1.462-.38 2.087-1.006ZM5.205 5c-.625.626-.94 1.351-1.004 2.09a8.497 8.497 0 0 0-.45-.164c-.424-.138-.91-.244-1.416-.172l-.38.054 1.3-1.3c.245-.246.566-.401.91-.44l1.08-.107-.04.039Zm9.406-3.961c-.38-.034-.967-.027-1.746.163-1.558.38-3.917 1.496-6.937 4.521-.62.62-.799 1.34-.687 2.051.107.676.483 1.362 1.048 1.928.564.565 1.25.941 1.924 1.049.71.112 1.429-.067 2.048-.688 3.079-3.083 4.192-5.444 4.556-6.987.183-.771.18-1.345.138-1.713a2.835 2.835 0 0 0-.045-.283 3.078 3.078 0 0 0-.3-.041Z" />
+            <path
+              d="M7.009 12.139a7.632 7.632 0 0 1-1.804-1.352A7.568 7.568 0 0 1 3.794 8.86c-1.102.992-1.965 5.054-1.839 5.18.125.126 3.936-.896 5.054-1.902Z" />
+          </svg> Camping</a>
+      </li>
+      <li class="sidebar-nav-item py-2">
+        <a href="#" class="sidebar-nav-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+            fill="currentColor" class="bi bi-wallet2" viewBox="0 0 16 16">
+            <path
+              d="M12.136.326A1.5 1.5 0 0 1 14 1.78V3h.5A1.5 1.5 0 0 1 16 4.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 13.5v-9a1.5 1.5 0 0 1 1.432-1.499L12.136.326zM5.562 3H13V1.78a.5.5 0 0 0-.621-.484L5.562 3zM1.5 4a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z" />
+          </svg> My Wallet</a>
+      </li>
+      <li class="sidebar-nav-item py-2">
+        <a href="#" class="sidebar-nav-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+            fill="currentColor" class="bi bi-bar-chart" viewBox="0 0 16 16">
+            <path
+              d="M4 11H2v3h2v-3zm5-4H7v7h2V7zm5-5v12h-2V2h2zm-2-1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1h-2zM6 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm-5 4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3z" />
+          </svg> Performance</a>
+
+
+      </li>
+ 
+      
+     
+    </ul>
+    <hr>
+
+    <ul class="sidebar-nav mt-5">
+      <label class="ms-2 mb-2"> PREFERENCES</label>
+      <li class="sidebar-nav-item  py-2">
+        <a href="#" class="sidebar-nav-link "><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gear" viewBox="0 0 16 16">
+  <path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z"/>
+  <path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z"/>
+</svg> Settings</a>
+      </li>
+      <li class="sidebar-nav-item py-2">
+        <a href="#" class="sidebar-nav-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-headset" viewBox="0 0 16 16">
+  <path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5z"/>
+</svg>
+            Help Center</a>
+      </li>
+   
+     
+ 
+      <img src="20.png" class=" person mt-3" alt="image"> 
+    </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </nav>
+
+  <div class="content  ">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light hbar">
+        <div class="container-fluid">
+          <div class="p">
+
+
+            <a class="navbar-brand sidebar-brand" href="#">Hello Darlene   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hand-index" viewBox="0 0 16 16">
+  <path d="M6.75 1a.75.75 0 0 1 .75.75V8a.5.5 0 0 0 1 0V5.467l.086-.004c.317-.012.637-.008.816.027.134.027.294.096.448.182.077.042.15.147.15.314V8a.5.5 0 1 0 1 0V6.435a4.9 4.9 0 0 1 .106-.01c.316-.024.584-.01.708.04.118.046.3.207.486.43.081.096.15.19.2.259V8.5a.5.5 0 0 0 1 0v-1h.342a1 1 0 0 1 .995 1.1l-.271 2.715a2.5 2.5 0 0 1-.317.991l-1.395 2.442a.5.5 0 0 1-.434.252H6.035a.5.5 0 0 1-.416-.223l-1.433-2.15a1.5 1.5 0 0 1-.243-.666l-.345-3.105a.5.5 0 0 1 .399-.546L5 8.11V9a.5.5 0 0 0 1 0V1.75A.75.75 0 0 1 6.75 1zM8.5 4.466V1.75a1.75 1.75 0 1 0-3.5 0v5.34l-1.2.24a1.5 1.5 0 0 0-1.196 1.636l.345 3.106a2.5 2.5 0 0 0 .405 1.11l1.433 2.15A1.5 1.5 0 0 0 6.035 16h6.385a1.5 1.5 0 0 0 1.302-.756l1.395-2.441a3.5 3.5 0 0 0 .444-1.389l.271-2.715a2 2 0 0 0-1.99-2.199h-.581a5.114 5.114 0 0 0-.195-.248c-.191-.229-.51-.568-.88-.716-.364-.146-.846-.132-1.158-.108l-.132.012a1.26 1.26 0 0 0-.56-.642 2.632 2.632 0 0 0-.738-.288c-.31-.062-.739-.058-1.05-.046l-.048.002zm2.094 2.025z"/>
+</svg></a>
+
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Lets check your stats today!</a>
+          </div>
+          <form class="d-flex">
+            <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-secondary" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path
+                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+              </svg></button>
+            <button class="btn btn-outline-secondary mx-3" type="submit"><svg xmlns="http://www.w3.org/2000/svg"
+                width="16" height="16" fill="currentColor" class="bi bi-bell" viewBox="0 0 16 16">
+                <path
+                  d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z" />
+              </svg></button>
+          </form>
+        </div>
+      </nav>
+
+
+      <div class="row my-2  ">
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card-body my-2 shadow p-3 mb-2 bg-body rounded">
+                <h5 class="card-title">Total Sessions</h5>
+
+                <div class="row">
+                  <div class="col-6">
+                    <h1 class=" my-4">2.4k+ </h1>
+
+                    <a href="#" class="text-decoration-none">17% last month</a>
+
+                  </div>
+
+                  <div class="col-6 position-relative"">
+    <img class=" position-absolute bottom-0 end-0" src="2.png" alt="image"></img>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card-body my-2 shadow p-3 mb-2 bg-body rounded">
+                <h5 class="card-title">Total Visitors</h5>
+
+                <div class="row">
+                  <div class="col-6">
+                    <h1 class=" my-4 ">1.6k+ </h1>
+
+                    <a href="#" class="text-decoration-none text-danger">17% last month</a>
+
+                  </div>
+
+                  <div class="col-6 position-relative"">
+    <img class=" position-absolute bottom-0 end-0" src="5.png" alt="image"></img>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card-body my-2 shadow p-3 mb-2 bg-body rounded">
+                <h5 class="card-title">Time Spent</h5>
+
+                <div class="row">
+                  <div class="col-6">
+                    <h1 class=" my-4">8.49 </h1>
+
+                    <a href="#" class="text-decoration-none">17% last month</a>
+
+                  </div>
+
+                  <div class="col-6 position-relative"">
+    <img class=" position-absolute bottom-0 end-0" src="3.png" alt="image"></img>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card-body my-2 shadow p-3 mb-2 bg-body rounded">
+                <h5 class="card-title  ">AVG Requests Received</h5>
+                <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+
+                <div class="row">
+                  <div class="col-6">
+                    <h1 class=" my-4">4.4 </h1>
+
+                    <a href="#" class="text-decoration-none">17% last month</a>
+
+                  </div>
+
+                  <div class="col-6 position-relative"">
+    <img class=" position-absolute bottom-0 end-0" src="4.png" alt="image"></img>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card-body my-2 shadow p-3 mb-2 bg-body rounded">
+            <h5 class="card-title">Views by Browser</h5>
+
+            <img class=" d-flex mx-auto img-fluid " src="1.png" alt="image"></img>
+
+            <div class="d-flex justify-content-between mt-3 ">
+              <h6 href="#" class=" d-inline-flex text-secondary"> Fire fox</h6>
+              <h6 href="#" class=" d-inline-flex text-success">Safari</h6>
+              <h6 href="#" class=" d-inline-flex text-warning">Chrome</h6>
+              <h6 href="#" class=" d-inline-flex text-dark">Explorer</h6>
+
+            </div>
+
+          </div>
+          <div class="col-md-6">
+
+
+
+          </div>
+
+
+
+        </div>
+
+      </div>
+
+
+<div class="row my-3">
+<div class="col-md-3">   <img src="11.png" class="d-block w-100 shadow p-3 mb-2 bg-body rounded" alt="imagex">
+</div>
+<div class="col-md-6">  <img src="12.png" class="d-block w-100 shadow p-3 mb-2 bg-body rounded" alt="imagex">
+</div>
+<div class="col-md-3">   
+  
+  <img src="13.png" class="d-block w-100 shadow p-3 mb-2 bg-body rounded" alt="imagex">
+
+
+</div>
+
+
+
+</div>
+    </div>
+  </div>
+  </div>
+
+
+  <script src="main.js" type="text/javascript"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
